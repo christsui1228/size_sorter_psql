@@ -1,0 +1,30 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "christsui1228", email = "christsui1228@gmail.com"},
+]
+dependencies = [
+    "fastapi",
+    "uvicorn>=0.32.0",
+    "pandas",
+    "openpyxl",
+    "xlrd",
+    "jieba",
+    "psycopg2-binary>=2.9.10",
+    "sqlmodel>=0.0.22",
+    "sqlalchemy[asyncio]>=2.0.36",
+    "asyncpg>=0.30.0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"

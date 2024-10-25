@@ -1,0 +1,3 @@
+{
+    "python.analysis.extraPaths": ["/home/chris/size_sorter_psql/backend/.venv/lib/python3.12/site-packages"]
+}
